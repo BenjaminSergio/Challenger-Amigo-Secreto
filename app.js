@@ -44,7 +44,7 @@ function sortearAmigo(){
     let amigoSorteado =  parseInt(Math.random() * limiteSorteio );
 
     const textoAmigoSorteado = document.getElementById('resultado');
-    textoAmigoSorteado.textContent = `O seu Amigo sechetro é: ${listaAmigos[amigoSorteado]}`;
+    textoAmigoSorteado.textContent = `O seu Amigo secreto é: ${listaAmigos[amigoSorteado]}`;
 
     listaAmigos.splice(amigoSorteado,1);
     showListaAmigo(listaAmigos)
